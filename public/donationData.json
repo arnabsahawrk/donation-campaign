@@ -1,0 +1,122 @@
+[
+  {
+    "picture": "https://i.postimg.cc/ZRbDfn4M/Food.png",
+    "title": "Meal Kit Distribution",
+    "category": "Food",
+    "category_bg": "#FF6347",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Provide meal kits containing essential food items to families in need.",
+    "price": 30
+  },
+  {
+    "picture": "https://i.postimg.cc/pr2xJR6W/Education.png",
+    "title": "Scholarship Fund",
+    "category": "Education",
+    "category_bg": "#4682B4",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Support students from low-income backgrounds with scholarships for higher education.",
+    "price": 50
+  },
+  {
+    "picture": "https://i.postimg.cc/3JF0hwTB/Clothing.png",
+    "title": "Winter Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#800080",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Collect warm clothing items such as coats, sweaters, and boots for individuals experiencing homelessness.",
+    "price": 20
+  },
+  {
+    "picture": "https://i.postimg.cc/vZXP4MW7/Health.png",
+    "title": "Medical Equipment Donation",
+    "category": "Health",
+    "category_bg": "#FFA500",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Donate medical equipment such as wheelchairs, crutches, and hospital beds to healthcare facilities.",
+    "price": 40
+  },
+  {
+    "picture": "https://i.postimg.cc/9F25Tmqs/21439029-6432892.jpg",
+    "title": "Community Garden Project",
+    "category": "Food",
+    "category_bg": "#FF6347",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Support the establishment of community gardens to promote sustainable food production.",
+    "price": 25
+  },
+  {
+    "picture": "https://i.postimg.cc/3wXb3ptR/2151112159.jpg",
+    "title": "STEM Education Initiative",
+    "category": "Education",
+    "category_bg": "#4682B4",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Fund programs that provide STEM education opportunities for underprivileged students.",
+    "price": 35
+  },
+  {
+    "picture": "https://i.postimg.cc/j2fTSS2v/12178768-4934495.jpg",
+    "title": "Back-to-School Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#800080",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Collect school uniforms and supplies for children in low-income communities.",
+    "price": 15
+  },
+  {
+    "picture": "https://i.postimg.cc/V6qyxHVH/2151183737.jpg",
+    "title": "Nutrition Education Program",
+    "category": "Health",
+    "category_bg": "#FFA500",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Promote healthy eating habits and nutrition education in schools and communities.",
+    "price": 45
+  },
+  {
+    "picture": "https://i.postimg.cc/J49fh8Cd/2151205766.jpg",
+    "title": "Food Bank Support",
+    "category": "Food",
+    "category_bg": "#FF6347",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Donate non-perishable food items to local food banks to help combat hunger.",
+    "price": 30
+  },
+  {
+    "picture": "https://i.postimg.cc/gkQxkxJF/2151164306.jpg",
+    "title": "Literacy Program",
+    "category": "Education",
+    "category_bg": "#4682B4",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Support literacy programs aimed at improving reading and writing skills in underserved communities.",
+    "price": 40
+  },
+  {
+    "picture": "https://i.postimg.cc/zXsPwkBd/2150951187.jpg",
+    "title": "Professional Attire Drive",
+    "category": "Clothing",
+    "category_bg": "#800080",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Collect professional attire such as suits and dress shoes for job seekers entering the workforce.",
+    "price": 35
+  },
+  {
+    "picture": "https://i.postimg.cc/WzhXg5k1/2150847963.jpg",
+    "title": "Mental Health Awareness Campaign",
+    "category": "Health",
+    "category_bg": "#FFA500",
+    "card_bg": "#F5F5F5",
+    "text_bg": "#333333",
+    "description": "Raise awareness about mental health issues and provide resources for those in need of support.",
+    "price": 35
+  }
+]
