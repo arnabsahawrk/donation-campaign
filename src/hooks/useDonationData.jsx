@@ -7,7 +7,7 @@ const useDonationData = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios("./donationData.json");
+        const res = await axios("/donationData.json");
         const { data } = res;
         setData(data);
       } catch (err) {
