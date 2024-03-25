@@ -13,7 +13,7 @@ const Banner = () => {
         variant="h1"
         className="text-[#0B0B0B] md:text-3xl text-xl lg:text-5xl"
       >
-        I Grow By Helping People In Need
+        We Grow By Helping People
       </Typography>
       <div className="relative flex w-5/6 md:w-full max-w-[24rem]">
         <Input
