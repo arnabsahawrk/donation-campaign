@@ -18,7 +18,7 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-red-500 transition-colors"
         >
           Home
         </a>
@@ -31,7 +31,7 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-red-500 transition-colors"
         >
           Donation
         </a>
@@ -44,7 +44,7 @@ function NavList() {
       >
         <a
           href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
+          className="flex items-center hover:text-red-500 transition-colors"
         >
           Statistics
         </a>
@@ -68,7 +68,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <Navbar className="shadow-none border border-gray-300">
+    <Navbar className="shadow-none mx-auto bg-[#FFFFFFF2] opacity-90">
       <div className="flex items-center justify-between">
         <img
           className="object-cover max-w-40"
@@ -85,9 +85,12 @@ const Nav = () => {
           onClick={() => setOpenNav(!openNav)}
         >
           {openNav ? (
-            <XMarkIcon className="h-6 w-6" strokeWidth={2} />
+            <XMarkIcon className="h-6 w-6 text-gray-900" strokeWidth={2} />
           ) : (
-            <Bars3Icon className="h-6 w-6" strokeWidth={2} />
+            <Bars3Icon
+              className="h-6 w-6 bg-gray-900 rounded"
+              strokeWidth={2}
+            />
           )}
         </IconButton>
       </div>
