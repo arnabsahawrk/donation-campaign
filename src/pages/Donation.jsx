@@ -3,6 +3,7 @@ import { getStorage } from "../utils/localStorage";
 import Donated from "../components/Donated/Donated";
 import { Button } from "@material-tailwind/react";
 import { useState } from "react";
+import NoDonation from "../components/NoData/NoDonation";
 
 const Donation = () => {
   const storedData = getStorage();
@@ -16,9 +17,15 @@ const Donation = () => {
         <title>Donation</title>
       </Helmet>
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
-        {storedData.slice(0, seeAll ? storedData.length : 4).map((donation) => (
-          <Donated key={donation.id} donation={donation}></Donated>
-        ))}
+        {storedData.length ? (
+          storedData
+            .slice(0, seeAll ? storedData.length : 4)
+            .map((donation) => (
+              <Donated key={donation.id} donation={donation}></Donated>
+            ))
+        ) : (
+          <NoDonation />
+        )}
         <div
           className={`md:col-span-2 text-center ${
             storedData.length <= 4 && "hidden"
