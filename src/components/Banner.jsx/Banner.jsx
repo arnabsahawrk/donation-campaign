@@ -1,10 +1,18 @@
 import { Typography } from "@material-tailwind/react";
 import { Input, Button } from "@material-tailwind/react";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
-const Banner = () => {
+const Banner = ({ data, setData }) => {
   const [search, setSearch] = useState("");
   const onChange = ({ target }) => setSearch(target.value);
+
+  const handleSearch = () => {
+    const searchResult = data.filter((d) =>
+      d.category.toLowerCase().includes(search.trim().toLowerCase())
+    );
+    setData(searchResult);
+  };
 
   return (
     <section className="bg-[#FFFFFFF2] rounded-xl relative h-[300px] lg:h-[500px] flex flex-col justify-center items-center gap-4 md:gap-6 lg:gap-10">
@@ -27,6 +35,7 @@ const Banner = () => {
           }}
         />
         <Button
+          onClick={handleSearch}
           size="sm"
           color={search ? "gray" : "blue-gray"}
           disabled={!search}
@@ -37,6 +46,11 @@ const Banner = () => {
       </div>
     </section>
   );
+};
+
+Banner.propTypes = {
+  data: PropTypes.array.isRequired,
+  setData: PropTypes.func.isRequired,
 };
 
 export default Banner;

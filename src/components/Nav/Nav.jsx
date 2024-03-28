@@ -6,7 +6,7 @@ import {
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function NavList() {
   return (
@@ -83,11 +83,13 @@ const Nav = () => {
   return (
     <Navbar className="shadow-none mx-auto bg-[#FFFFFFF2] opacity-90">
       <div className="flex items-center justify-between">
-        <img
-          className="object-cover max-w-40"
-          src="https://i.postimg.cc/Xqs9LNQ4/Logo.png"
-          alt="Donation Campaign"
-        />
+        <Link to="/">
+          <img
+            className="object-cover max-w-40"
+            src="https://i.postimg.cc/Xqs9LNQ4/Logo.png"
+            alt="Donation Campaign"
+          />
+        </Link>
         <div className="hidden lg:block">
           <NavList />
         </div>

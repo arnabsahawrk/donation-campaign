@@ -1,5 +1,13 @@
+import { Helmet } from "react-helmet-async";
+
 const Statistics = () => {
-  return <div></div>;
+  return (
+    <section>
+      <Helmet>
+        <title>Statistics</title>
+      </Helmet>
+    </section>
+  );
 };
 
 export default Statistics;
